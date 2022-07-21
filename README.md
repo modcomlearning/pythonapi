@@ -102,7 +102,7 @@ import pymysql
 def all():
     # Change DB connection to yours
     con = pymysql.connect(host='Modcom.mysql.pythonanywhere-services.com', user='Modcom', password='2491Mod@#$',
-                          database='Modcom$cyberdb')
+                          database='Modcom$default')
     cursor = con.cursor(pymysql.cursors.DictCursor)
     sql = "select * from products"
     cursor.execute(sql)
