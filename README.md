@@ -187,6 +187,7 @@ def mpesa_payment():
 ### My API is Up on this Link  (https://modcom1.pythonanywhere.com/api/all)
 
 ### Looks something Like below
+
 ```
 [
   {
@@ -196,7 +197,7 @@ def mpesa_payment():
     "product_name": "Nice Table"
   }
 ]
-
+```
 
 
 
