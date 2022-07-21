@@ -59,7 +59,7 @@ CREATE TABLE products ( product_name VARCHAR(50), product_desc TEXT, product_cos
 ### Step 6
 #### After this Insert a New Record to your products table using below command.
 ```
-insert into  products ( product_name, product_desc, product_cost, image_url) values('Nice Table', 'This is a nice table for your house', '3500', 'https://modcom.co.ke/pics/	furniture1.jpeg');
+insert into  products ( product_name, product_desc, product_cost, image_url) values('Nice Table', 'This is a nice table for your house', '3500', 'https://modcom.co.ke/pics/furniture1.jpeg');
 ```
 
 ![q14](https://user-images.githubusercontent.com/66998462/180138337-0256edea-2789-485a-9b2b-4dd848e355d7.png)
