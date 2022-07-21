@@ -49,6 +49,7 @@
 #### After the console finishes loading enter below SQL command to create atable.
 ```
 CREATE TABLE products ( product_name VARCHAR(50), product_desc TEXT, product_cost VARCHAR(50), image_url VARCHAR(200));
+```
 
 ![q13](https://user-images.githubusercontent.com/66998462/180138307-8b94c980-2966-452d-b452-8ff4f31b8bb7.png)
 
@@ -56,13 +57,15 @@ CREATE TABLE products ( product_name VARCHAR(50), product_desc TEXT, product_cos
 #### After this Insert a New Record to your products table using below command.
 ```
 insert into  products ( product_name, product_desc, product_cost, image_url) values('Nice Table', 'This is a nice table for your house', '3500', 'https://modcom.co.ke/pics/	furniture1.jpeg');
+```
 
 ![q14](https://user-images.githubusercontent.com/66998462/180138337-0256edea-2789-485a-9b2b-4dd848e355d7.png)
+```
 
-You can now use select query to see the table you just created and its data.
+#### You can now use select query to see the table you just created and its data.
 ![q15](https://user-images.githubusercontent.com/66998462/180138393-79e19e5f-f8ac-47e8-9323-0b927c622f7d.png)
 
-
+### You are Done Setting up a Database! Add more Records using the Insert Query.
 
 
 
