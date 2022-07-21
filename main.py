@@ -15,8 +15,6 @@ def all():
     return jsonify(rows)
 
 
-
-
 import datetime
 import base64
 from requests.auth import HTTPBasicAuth
