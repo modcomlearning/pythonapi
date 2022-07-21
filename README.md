@@ -77,11 +77,9 @@ insert into  products ( product_name, product_desc, product_cost, image_url) val
 
 ![q17](https://user-images.githubusercontent.com/66998462/180139223-195b9c5d-c4b3-41f4-9134-996d0f68e0a1.png)
 
-#### Write below command to install pymysql and flask_cors
+#### Write below command to install pymysql
 ```
 pip install pymysql
-
-pip install flask_cors
 
 ```
 ![q18](https://user-images.githubusercontent.com/66998462/180139633-1107bb2b-acc4-4112-ab31-ef37f9424254.png)
@@ -95,11 +93,8 @@ pip install flask_cors
 #### In this File enter below code and Save.
 ```
 from flask import *
-from flask_cors import CORS
 import requests
 app = Flask(__name__)
-CORS(app)
-cors = CORS(app, resources={r"/api/*": {"origins": "*"}})
 import pymysql
 
 # Your routes
