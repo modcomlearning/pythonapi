@@ -1,9 +1,6 @@
 from flask import *
-from flask_cors import CORS
 import requests
 app = Flask(__name__)
-CORS(app)
-cors = CORS(app, resources={r"/api/*": {"origins": "*"}})
 import pymysql
 
 # Your routes
