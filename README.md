@@ -105,6 +105,7 @@ import pymysql
 # Your routes
 @app.route('/api/all')
 def all():
+    # Change DB connection to yours
     con = pymysql.connect(host='Modcom.mysql.pythonanywhere-services.com', user='Modcom', password='2491Mod@#$',
                           database='Modcom$cyberdb')
     cursor = con.cursor(pymysql.cursors.DictCursor)
