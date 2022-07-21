@@ -181,8 +181,20 @@ def mpesa_payment():
  ## Step 9
  ### Go to Web Menu and Reload your application, The Green Button
 ![21](https://user-images.githubusercontent.com/66998462/180140188-feae01c5-4523-4a67-ae18-b7f61d7ec101.png)
+```
 
 ### My API is Up on this Link  (https://modcom1.pythonanywhere.com/api/all)
+
+### Looks something Like below
+```
+[
+  {
+    "image_url": "https://modcom.co.ke/pics/furniture1.jpeg",
+    "product_cost": "3500",
+    "product_desc": "This is a nice table for your house",
+    "product_name": "Nice Table"
+  }
+]
 
 
 
