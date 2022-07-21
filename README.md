@@ -199,8 +199,6 @@ def mpesa_payment():
 ]
 ```
 
-
-
-
-
+### Thank you, Glad You Manged to Set Up Your API!
+### Please Follow Our Github Repository For More Codes (https://github.com/modcomlearning)
 
