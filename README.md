@@ -35,10 +35,32 @@
 #### Next
 ![q8](https://user-images.githubusercontent.com/66998462/180135505-8a739497-837b-4fe9-8784-3d214e03f331.png)<br/><br/>
 
+#### NB: on above screen please see the link of your API. in my case (modcom1.pythonanywhere.com), this page will also help to be reloading our Page.
+
+### Step 4
+### Creating the Database, From the dashboard, click Databases From the TOP BAR, Setup database passwords and Press Initialize, You get into below Page, Here we can see a database with default name i.e yourusername$databasname.
+
+#### Below page appears, 
+![q10](https://user-images.githubusercontent.com/66998462/180137168-e04ca2f6-1f21-413a-9d61-b0f33c8e3741.png)
+
+#### Click on the defaul database and a console appears, see below screen. 
+![q11](https://user-images.githubusercontent.com/66998462/180137183-447ceab5-3be9-4498-81b8-3b7f6213c4ff.png)
+
+#### After the console finishes loading enter below SQL command to create atable.
+```
+CREATE TABLE products ( product_name VARCHAR(50), product_desc TEXT, product_cost VARCHAR(50), image_url VARCHAR(200));
+
+![q13](https://user-images.githubusercontent.com/66998462/180138307-8b94c980-2966-452d-b452-8ff4f31b8bb7.png)
 
 
+#### After this Insert a New Record to your products table using below command.
+```
+insert into  products ( product_name, product_desc, product_cost, image_url) values('Nice Table', 'This is a nice table for your house', '3500', 'https://modcom.co.ke/pics/	furniture1.jpeg');
 
+![q14](https://user-images.githubusercontent.com/66998462/180138337-0256edea-2789-485a-9b2b-4dd848e355d7.png)
 
+You can now use select query to see the table you just created and its data.
+![q15](https://user-images.githubusercontent.com/66998462/180138393-79e19e5f-f8ac-47e8-9323-0b927c622f7d.png)
 
 
 
