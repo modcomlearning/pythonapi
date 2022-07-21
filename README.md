@@ -1,4 +1,4 @@
-## Python API to Retrieve Products and Nake MPESA Payment.
+## Python API to Retrieve Products and Make MPESA Payment.
 ### In this session we are creating an API to used by an Android Mobile App check the Mobile App that uses this API on this link
 (https://github.com/modcomlearning/shop) <br/>
 
@@ -38,7 +38,9 @@
 #### NB: on above screen please see the link of your API. in my case (modcom1.pythonanywhere.com), this page will also help to be reloading our Page.
 
 ### Step 4
-### Creating the Database, From the dashboard, click Databases From the TOP BAR, Setup database passwords and Press Initialize, You get into below Page, Here we can see a database with default name i.e yourusername$databasname.
+### Creating the Database, From the dashboard, click Databases From the TOP BAR, Setup database passwords and Press Initialize, NB: Please save the host, username, password, and database name
+### You get into below Page, Here we can see a database with default name i.e yourusername$databasname.
+
 
 #### Below page appears, 
 ![q10](https://user-images.githubusercontent.com/66998462/180137168-e04ca2f6-1f21-413a-9d61-b0f33c8e3741.png)
