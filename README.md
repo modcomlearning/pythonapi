@@ -182,7 +182,7 @@ def mpesa_payment():
  ## Step 9
  ### Go to Web Menu and Reload your application, The Green Button
 ![21](https://user-images.githubusercontent.com/66998462/180140188-feae01c5-4523-4a67-ae18-b7f61d7ec101.png)
-```
+
 
 ### My API is Up on this Link  (https://modcom1.pythonanywhere.com/api/all)
 
